@@ -1,0 +1,6 @@
+framework module Pods_ReactiveObjCExt_Tests {
+  umbrella header "Pods-ReactiveObjCExt_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
