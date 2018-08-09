@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ReactiveObjCExt_Example' do
+  pod 'ReactiveObjCExt', :path => '../'
+
+  target 'ReactiveObjCExt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
