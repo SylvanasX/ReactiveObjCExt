@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSURLSession+RACExtensions.h"
 #import "RACSignal+RACExtensions.h"
 
 FOUNDATION_EXPORT double ReactiveObjCExtVersionNumber;

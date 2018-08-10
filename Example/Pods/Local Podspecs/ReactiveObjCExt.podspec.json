@@ -1,8 +1,8 @@
 {
   "name": "ReactiveObjCExt",
   "version": "0.1.0",
-  "summary": "A short description of ReactiveObjCExt.",
-  "description": "ReactiveObjCExt.",
+  "summary": "ReactiveObjC Extensions",
+  "description": "ReactiveObjC Extensions.",
   "homepage": "https://github.com/SylvanasX/ReactiveObjCExt",
   "license": {
     "type": "MIT",
