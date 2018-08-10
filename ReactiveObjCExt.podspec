@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ReactiveObjCExt'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ReactiveObjCExt.'
+  s.summary          = 'ReactiveObjC Extensions'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-ReactiveObjCExt.
+ReactiveObjC Extensions.
                        DESC
 
   s.homepage         = 'https://github.com/SylvanasX/ReactiveObjCExt'
