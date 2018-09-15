@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (RACSignal *)flattenMapLatest:(__kindof RACSignal * _Nullable (^)(ValueType _Nullable value))block RAC_WARN_UNUSED_RESULT;
 
+- (RACSignal<RACTuple *> *)withLatestFrom:(RACSignal *)from;
+
 @end
 
 NS_ASSUME_NONNULL_END

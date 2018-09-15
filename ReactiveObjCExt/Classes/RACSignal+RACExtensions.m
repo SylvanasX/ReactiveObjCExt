@@ -17,4 +17,8 @@
                 switchToLatest];
 }
 
+- (RACSignal<RACTuple *> *)withLatestFrom:(RACSignal *)from {
+    return [RACSignal zip:@[[self sample:from], from]];
+}
+
 @end
