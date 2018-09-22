@@ -18,7 +18,8 @@
 }
 
 - (RACSignal<RACTuple *> *)withLatestFrom:(RACSignal *)from {
-    return [RACSignal zip:@[[self sample:from], from]];
+    RACSignal <RACTuple *> *combineLatest = [RACSignal combineLatest:@[self, from]];
+    return [combineLatest sample:from];
 }
 
 @end
